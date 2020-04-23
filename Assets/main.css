@@ -1,0 +1,360 @@
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+#text {
+    padding-bottom: 53px;
+}
+
+#text h1 {
+    color: #FF9800;
+    text-align: center;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+#text p {
+    text-align: center;    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    color: #A9A9A9;
+}
+
+#card {
+    text-align: center;
+    background-color: brown;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+ .card {
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px 6px black;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 0px;}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.carousel {
+    border: solid 3px white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#carousal {
+    padding: 10px;
+    background-color: black;
+}
+
+.navbar {
+    border: solid 2px #343A40;
+    border-radius: 7px
+}
+
+#nav-bar {
+    background-color: black;
+}
+
+.most {
+    font-size: 40px;
+    color: white;
+}
+
+.play-on-this {
+    font-size: 35px;
+    font-weight: 500;
+    text-shadow: 2px 3px 1px grey;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.video {
+    overflow: hidden;
+    border-radius: 30px;
+    border: solid 3px black;
+    background-color: white;
+    width: 80%;
+}
+
+#emulator {
+    background-color: antiquewhite;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.emulator-text {
+    font-size: 30px;
+    text-align: center;
+    font-family: none;
+}
+
+#last {
+    background-color: black;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.follow-us {
+    font-size: 45px;
+    color: white;
+    padding-bottom: 52px;
+    font-family: none;
+    padding-top: 35px;
+}
+.insta {
+    height: 45px;
+    margin-bottom: 49px;
+}
+
+.fb {
+    height: 45px;
+    margin-bottom: 49px;
+    margin-left: 50px;
+}
+
+.yt {    height: 96px;
+    margin-bottom: 49px;
+    margin-left: 20px;
+}    
+
+.tr {
+    height: 45px;
+    margin-bottom: 49px;
+    margin-left: 17px;
+}
+
+
+.last-text-2 {
+    color: white;
+}
+
+.last-text-3 {
+    color: white;
+    font-size: 45px;
+    font-family: none;
+    padding-top: 13px;
+}
+
+.copy-text {
+    color: #FF9800;
+    margin-top: 60px;
+}
+
+.last-text-4 {
+    color: #2DAAE1;
+    margin-top: -64px;
+}
+
+#scroll {
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 480px)
+{
+    #text h1 {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    #text {
+        padding-bottom: 0px;
+    }
+    #text p {
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+    .most {
+        font-size: 20px;
+    }
+    .play-on-this {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .emulator-text {
+        font-size: 15px;
+    }
+    .video {
+        width: 95%;
+    }
+    .follow-us {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 1.5rem;
+    }
+    .form-control {
+        width: 170px;
+        height: 25px;
+    }
+    .mail {
+        font-size: 10px;
+    }
+    .form-group {
+        margin-bottom: -2rem;
+    }
+    .last-text-3 {
+        padding-top: 0px;
+        margin-top: -65px;
+        font-size: 1.5rem;
+    }
+    .copy-text {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .last-text-2 {
+        font-size: 10px;
+        margin-top: -20px;
+    }
+    .insta {
+        height: 25px;
+    }
+    .fb {
+        margin-left: 10px;
+        height: 25px;
+    }
+    .yt {
+        margin-left: -15px;
+        height: 65px;
+    }
+    .tr {
+        margin-left: -10px;
+        height: 25px;
+    }
+    
+    
+}
+
+@media (max-width: 768px)
+{
+    #text h1 {
+        font-size: 1.5rem;
+        margin-top: 5px;
+    }
+    #text {
+        padding-bottom: 0px;
+    }
+    #text p {
+        font-size: 10px;
+        padding-bottom: 0px;
+    }
+    .most {
+        font-size: 20px;
+    }
+    .play-on-this {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .emulator-text {
+        font-size: 15px;
+    }
+    .video {
+        width: 95%;
+    }
+    .follow-us {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        font-size: 1.5rem;
+    }
+    .form-control {
+        width: 170px;
+        height: 25px;
+    }
+    .mail {
+        font-size: 10px;
+    }
+    .form-group {
+        margin-bottom: -2rem;
+    }
+    .last-text-3 {
+        padding-top: 0px;
+        margin-top: -65px;
+        font-size: 1.5rem;
+    }
+    .copy-text {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .last-text-2 {
+        font-size: 10px;
+        margin-top: -20px;
+    }
+    .insta {
+        height: 25px;
+    }
+    .fb {
+        margin-left: 10px;
+        height: 25px;
+    }
+    .yt {
+        margin-left: -15px;
+        height: 65px;
+    }
+    .tr {
+        margin-left: -10px;
+        height: 25px;
+    }
+}
+
+/* @media  (max-width: 1279px)
+{
+    .form-control {
+        width: 400px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .form-group {
+        margin-bottom: 0rem;
+    }
+    .last-text-3 {
+        padding-top: 0px;
+        margin-top: -40px
+    }
+}
+
+@media (min-width: 1280px)
+{
+    .mail {
+        font-size: 25px;
+    }
+    .form-control {
+        width: 750px;
+    }
+} */
